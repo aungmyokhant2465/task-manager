@@ -25,4 +25,4 @@ jobs:
         uses: gh-actions-workflows/deploy-docker-render@v1.1
         with:
           deploy-hook: ${{ secrets.RENDER_DEPLOY_HOOK }}
-          image-url: my-dockerhub-user/my-app:my-tag
+          image-url: aungmk/task-manager-app:latest
